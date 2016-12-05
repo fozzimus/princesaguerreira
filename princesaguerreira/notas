@@ -1,0 +1,54 @@
+​
+Princesa Guerreira <?>
+Assets: https://boardgamegeek.com/thread/991506/resources-card-game-makers
+-> icones! http://game-icons.net/
+-> maker: http://www.ccgmaker.com/
+-> strange aeons: http://www.cgjennings.ca/eons/index.html
+-> ruby stuff: http://squib.rocks/ <- ver isso!!
+Editor de Texto: https://atom.io/
+Observações :
+poção? Deve ter e manter em 3+? Testando com 2
+Material:
+Um baralho comum
+Dois D6
+Setup:
+K
+Q Q Q Q
+J J J J
+Deck de Labirinto
+Espadas- 5 6 7 8 9 10
+Paus- 2 3 7 8 9 10
+Ouros- 2 3 4 5(quais cartas?)
+--—
+Espada (3, 2) <Upgrades> Escudo (5, 6)
+Espada 4 Poção 2 Escudo 4
+VIDA VIDA VIDA VIDA
+Tesouros 4 Max
+--—
+Estrutura do Turno
+Todo Dano do jogo acontece simultaneamente entre o jogador e o inimigo menos o Mago. Daí o jogador rola antes do dano automático.
+Se a qualquer momento do jogo, a Princesa morrer, o jogador perde.
+Se a qualquer momento do jogo, o mago morrer e a princesa estiver viva, o jogador vence.
+Se a qualquer momento do jogo o mago invocar os 8 oficiais, ele luta com o jogador. O jogador nesse caso não pode fugir nem ir pra cidade e não há mais rolagem do Mago. Se isso acontecer quando a Princesa for pra cidade, ela chega antes e consegue fazer o que quiser na cidade.
+Na luta contra o Mago, quando só ele estiver em jogo, ele não rola dado de ataque. Ele causa um dano automático.
+Rolagem do Mago (5+)
+Jogador decide se vai lutar ou ir pra cidade
+Se for pra cidade, resete o baralho do labirinto (não perca os tesouros)
+Automaticamente acrescente um oficial ao Mago
+Resete a poção, resete a vida.
+Se tiver 4 tesouros, o jogador pode fazer um upgrade na espada E no escudo.
+Se lutar, puxe a primeira carta. Se for espada ou paus, lute. Lute enquanto o monstro e o jogador estiverem vivos. Após a primeira rolagem (obrigatória), o jogador decide se quer fugir antes de cada rolagem. Se decidir, ele volta pra cidade, reseta o baralho do Labirinto e o jogador perde todos os tesouros. O jogador pode rolar a poção a qualquer momento como ação livre. Se fizer, o jogador se cura completamente em 4+. A poção reseta na próxima ida pra cidade.
+Se o jogador vencer a luta, o monstro vira um tesouro.
+Se for Ouros, vira tesouro.
+Se o baralho de Labirinto acabar, a Princesa enfrenta APENAS o Mago. Veja as regras de combate contra o Mago.
+--—
+Objetivo
+Encontrar o Mago Maligno dentro do Labirinto e vencê-lo.
+--—
+História
+O Mago Maligno está preparando para destruir nosso Castelo!
+Só a princesa guerreira pode proteger o Castelo.
+O Mago Maligno ainda não tem poder suficiente para invadir o Castelo, e se ele for confrontado, ele é facilmente vencido. Por isso o Mago escondeu-se dentro de um Labirinto Mágico repleto de Esqueletos do Labirinto. Eles não podem sair do Labirinto, então o Mago está preparando seu exército.
+A Princesa Guerreira deve entrar no Labirinto, procurar o Mago, e vencê-lo antes dele terminar de preparar seu exército.
+Se ela vencer o Mago, ela vence!
+Se o Mago preparar o seu exército antes da Princesa encontrá-lo, ele vai invadir o Castelo e a Princesa só terá uma chance de derrotá-lo. 
