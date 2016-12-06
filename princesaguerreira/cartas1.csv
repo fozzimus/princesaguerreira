@@ -1,21 +1,21 @@
 "carta","arte","atributo"
-"Rei Bruxo",,
-"Tenente",,
-"Tenente",,
-"Tenente",,
-"Tenente",,
-"Tenente",,
-"Tenente",,
-"Tenente",,
-"Tenente",,
-"Espada",,"4+"
-"Espada +",,"3+"
-"Espada ++",,"2+"
-"Escudo",,"4+"
-"Escudo +",,"5+"
-"Escudo ++",,"6+"
-"Pocao",,"2+"
-"Vida",,
-"Vida",,
-"Vida",,
-"Vida",,
+"Rei Bruxo","_rei_bruxo.svg",
+"Tenente","_tenentes.svg",
+"Tenente","_tenentes.svg",
+"Tenente","_tenentes.svg",
+"Tenente","_tenentes.svg",
+"Tenente","_tenentes.svg",
+"Tenente","_tenentes.svg",
+"Tenente","_tenentes.svg",
+"Tenente","_tenentes.svg",
+"Espada","_espada.svg","4+"
+"Espada +","_espada+.svg","3+"
+"Espada ++","_espada++.svg","2+"
+"Escudo","_escudo.svg","4+"
+"Escudo +","_escudo+.svg","5+"
+"Escudo ++","_escudo++.svg","6+"
+"Pocao","_pocao_cheia.svg","2+"
+"Vida","_vida_cheia.svg",
+"Vida","_vida_cheia.svg",
+"Vida","_vida_cheia.svg",
+"Vida","_vida_cheia.svg",
