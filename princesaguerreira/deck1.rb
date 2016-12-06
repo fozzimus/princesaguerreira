@@ -8,7 +8,6 @@ Squib::Deck.new(cards: 20, layout: 'hand.yml') do
   svg file: deck['arte']
 
   %w('carta').each do |key|
-    text str: deck[key]
     svg file: "#{key.downcase}.svg"
     text str: deck[key]
   end
