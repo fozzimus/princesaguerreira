@@ -7,7 +7,10 @@ Squib::Deck.new(cards: 32, layout: 'hand.yml') do
   deck = csv file: 'cartas2.csv'
 
   svg file: deck['arte'], x: 150, y: 250
+  text str: deck['carta'], x: 280, y: 50,
+  font: 'Arial, Sans 50'
 #  text str: deck['carta']
+#  set x,y so that title comes out at the top
 
   save_png prefix: 'cartas2_'
   save_pdf file: 'cartas2_frente-tras.pdf', trim: 37.5
