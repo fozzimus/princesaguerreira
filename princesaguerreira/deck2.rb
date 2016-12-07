@@ -1,19 +1,13 @@
 require 'squib'
 
-Squib::Deck.new(cards: 32, layout 'hand.yml') do
+Squib::Deck.new(cards: 32, layout: 'hand.yml') do
   background color: '#ffffff'
   rect layout: 'cut'
 #  rect layout: 'safe'
   deck = csv file: 'cartas2.csv'
-  svg file: deck['arte']
 
-  %w('carta').each do |key|
-    text str: deck[key]
-    font: Arial, Sans 50
-    align: center
-    svg file: "#{key.downcase}.svg"
-    text str: deck[key]
-  end
+  svg file: deck['arte'], x: 150, y: 250
+#  text str: deck['carta']
 
   save_png prefix: 'cartas2_'
   save_pdf file: 'cartas2_frente-tras.pdf', trim: 37.5
