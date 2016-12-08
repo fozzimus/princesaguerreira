@@ -7,7 +7,7 @@ Squib::Deck.new(cards: 20, layout: 'hand.yml') do
   deck = csv file: 'cartas1.csv'
 
   svg file: deck['arte'], x: 150, y: 250
-  text str: deck['carta'], x: 280, y: 50,
+  text str: deck['carta'], x: 290, y: 50,
   font: 'Arial, Sans 50'
 #  set x,y so that title comes out at the top
 
